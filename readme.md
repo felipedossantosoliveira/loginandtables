@@ -1,7 +1,6 @@
 ## A páginas estão dentro da pasta html
 
 ## Print table list page:
-### Ainda sem responsividade para mobile
 #### 1366x768px screen
 <img src="img/prints/tablelist1366.png"/>
 
