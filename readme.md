@@ -1,11 +1,19 @@
-## A página login está dentro da pasta html
+## A páginas estão dentro da pasta html
+
+## Print table list page:
+### Ainda sem responsividade para mobile
+#### 1366x768px screen
+<img src="img/prints/tablelist1366.png"/>
+
+#### 1920x1080px screen
+<img src="img/prints/tablelist1920.png"/>
 
 ## Print login page:
-### 1366x768px screen
+#### 1366x768px screen
 <img src="img/prints/login1366.jpeg"/>
 
-### 1920x1080px screen
-<img src="img/prints/login1980.jpeg"/>
+#### 1920x1080px screen
+<img src="img/prints/login1920.jpeg"/>
 
-### 375x667px screen
+#### 375x667px screen
 <img src="img/prints/login375.jpeg"/>
