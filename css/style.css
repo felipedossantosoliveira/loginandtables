@@ -1,9 +1,31 @@
 @charset "utf-8";
 
 body{
-    background-color: #0f0f0f;
+    /*background-color: #0f0f0f;*/
     margin: 0;
     width: 100vw;
     height: 100vh;
     font-family: 'Open Sans';
+    overflow-x: scroll;
 } 
+header.header_one {
+    height: 100px;
+    width: 100vw;
+    background-color: #0f0f0f;
+    margin: 0;
+}
+h1{
+    font-size:25pt;
+}
+h2{
+    font-size:20pt;
+}
+p{
+    font-size:12pt;
+}
+th{
+    font-size: 12pt;
+}
+td{
+    font-size: 12pt;
+}
