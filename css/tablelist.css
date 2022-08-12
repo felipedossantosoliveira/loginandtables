@@ -4,6 +4,9 @@ header.header_empty{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header.header_empty h1 {
@@ -45,14 +48,14 @@ div#btn_container{
     align-content: center;
 }
 div.btn_border a{
-    background-color: rgb(98, 41, 255);
+    background-color: #fa3419;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
     color: #fff;
 }
 div.btn_border a:hover{
-    background-color: rgb(37, 0, 138);
+    background-color: #a11300;
     border-bottom: 1px solid rgba(0, 0, 0, 0.692);
 }
 div#title{
@@ -69,22 +72,28 @@ table#table_users{
     border-collapse: separate;
     margin: 0;
     overflow:scroll;
-    border: 1px solid #8a8a8a;
+    border: 1px solid #c5c5c5;
     border-radius: 10px;
-    border-spacing: 0;
+    border-spacing: 0px;
 }
 table#table_users th, td{
     text-align: left;
     padding: 15px;
 }
 table#table_users th{
-    border-bottom: 1px solid #8a8a8a;
+    border-bottom: 1px solid #c5c5c5;
+}
+table#table_users td#fst_cell{
+    border-bottom-left-radius: 10px; 
+}
+table#table_users td#last_cell{
+    border-bottom-right-radius: 10px;
 }
 table#table_users tr:nth-child(even) {
     background-color: #f1f1f1;
 }
 table#table_users tr.td_users:hover{
-    background-color: #ffa9a9;
+    background-color: #ffb0a5;
 }
 table#table_users a{
     text-decoration: none;
