@@ -1,0 +1,135 @@
+@charset "utf-8";
+section#section{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+header.header_empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden
+}
+
+header.header_empty h1 {
+    color: #fff;
+}
+header.header_empty img {
+    width: 85px;
+}
+table#table_users_grid p{
+    font-size:10pt;
+
+}
+div#user_titles h2,p{
+    margin: 0;
+    /*padding-left: 20px;*/
+    
+}
+div.gridtable{
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+}
+table#table_users_grid{
+    min-width: 1200px;
+    width: 80%;
+}
+div#user_titles {
+    /*background-color: #5e5e5e;*/
+    width: 80%;
+    height: 75px;
+}
+div#title{
+    min-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.grid_cell{
+    width:350px;
+    height:130px;
+    background-color: #fff;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.info_cell{
+    width:70%;
+    height: 75%;
+    /*background-color: #b1b1b1;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+div.info_cell p{
+    /*padding: 3px;*/
+    margin: 0;
+}
+
+div.info_cell_display{
+    display: flex;
+}
+div.pic_cell{
+    width:30%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.pic_cell img{
+    width:80px;
+    height:80px;
+    object-fit: cover;
+    border-radius: 100px;
+
+}
+p.info_cell_nome{
+    font-weight: bold;
+    padding-left: 15px;
+}
+p.info_cell_cargo{
+    color: #b1b1b1;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+p.info_cell_tipo{
+    background-color: rgba(0, 128, 0, 0.185);
+    color: green;
+    border: 1px solid rgba(0, 128, 0, 0.048);
+    border-radius: 15px;
+}
+p#info_cell_tipo_p{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 10px;
+
+    
+}
+div.bottom_cell{
+    height: 25%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 1px solid #c5c5c5;
+}
+div.bottom_cell_email{
+    border-right: 1px solid #c5c5c5;
+}

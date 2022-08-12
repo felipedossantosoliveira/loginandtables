@@ -7,10 +7,14 @@ header.header_empty{
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden
 }
 
 header.header_empty h1 {
     color: #fff;
+}
+header.header_empty img {
+    width: 85px;
 }
 section#section{
     display: -webkit-box;
@@ -89,15 +93,34 @@ table#table_users td#fst_cell{
 table#table_users td#last_cell{
     border-bottom-right-radius: 10px;
 }
-table#table_users tr:nth-child(even) {
-    background-color: #f1f1f1;
+table#table_users th#fst_cell_top{
+    border-top-left-radius: 10px;
 }
+table#table_users th#last_cell_top{
+    border-top-right-radius: 10px;
+}
+table#table_users td{
+    border-bottom: 1px;
+}
+
+table#table_users tr{
+    background-color: #fff;
+}
+/*table#table_users tr:nth-child(even) {
+    background-color: #f8f8f8;
+}*/
 table#table_users tr.td_users:hover{
-    background-color: #ffb0a5;
+    background-color: #ffd7d2;
 }
 table#table_users a{
+    padding: 10px;
     text-decoration: none;
-    color: rgb(3, 0, 192);
+    color: #fa3419;
+    margin-right: -10px;;
+}
+table#table_users a:hover{
+    text-decoration: underline;
+    color: #fa3419;
 }
 table#table_users .nome{
     font-weight: bold;
