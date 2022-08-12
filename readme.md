@@ -2,7 +2,7 @@
 
 ## Print table list page:
 #### 1920x1080px screen
-<img src="img/prints/tablelist-1920.png"/>
+<img src="img/prints/tablelist1920.png"/>
 
 ## Print table list page:
 #### 1920x1080px screen
